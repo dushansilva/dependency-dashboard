@@ -1,10 +1,10 @@
 <DependencyUpdatesReport>
 	<summary>
-		<usingLastVersion>36</usingLastVersion>
-		<nextVersionAlailable>9</nextVersionAlailable>
-		<nextIncremetalAvailable>120</nextIncremetalAvailable>
-		<nextMinorAvailable>9</nextMinorAvailable>
-		<nextMajorAvailable>0</nextMajorAvailable>
+		<usingLastVersion>890</usingLastVersion>
+		<nextVersionAlailable>1</nextVersionAlailable>
+		<nextIncremetalAvailable>144</nextIncremetalAvailable>
+		<nextMinorAvailable>5</nextMinorAvailable>
+		<nextMajorAvailable>3</nextMajorAvailable>
 	</summary>
 	<dependencyManagements>
 		<dependencyManagement>
