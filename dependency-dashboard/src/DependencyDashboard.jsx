@@ -35,6 +35,7 @@ import AbstractSelect from './AbstractSelect';
 import './DependencyDashboard.css';
 import FormControl from '@material-ui/core/FormControl';
 import InputLabel from '@material-ui/core/InputLabel';
+const hostUrl = "https://" + window.location.host + window.contextPath + "/apis/dependency-data";
 
 const darkTheme = createMuiTheme({
     palette: {
@@ -104,8 +105,8 @@ class DependencyDashboard extends Widget {
     }
 
     componentDidMount() {
-        const dependencyDataPromise = axios.get('http://localhost:9090/dependency-data/all');
-        const productDataPromise = axios.get('http://localhost:9090/dependency-data/product-data/all');
+        const dependencyDataPromise = axios.get(hostUrl + '/all');
+        const productDataPromise = axios.get(hostUrl + '/product-data/all');
 
         Promise.all([dependencyDataPromise, productDataPromise])
             .then(response => {
@@ -206,9 +207,9 @@ class DependencyDashboard extends Widget {
                     acc['nextMinor'] = acc['nextMinor'] + repObject['nextMinor'];
                     acc['nextVersion'] = acc['nextVersion'] + repObject['nextVersion'];
                     acc['usingLatestVersion'] = acc['usingLatestVersion'] + repObject['usingLatestVersion'];
-                }                
+                }
                 return acc
-            });            
+            });
             return acc;
         }, {
                 nextIncremental: 0,

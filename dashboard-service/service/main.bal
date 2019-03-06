@@ -1,7 +1,7 @@
 import ballerina/http;
 import ballerina/log;
 
-listener http:Listener httpListener = new(9090);
+listener http:Listener httpListener = new(9091);
 
 // Order management is done using an in-memory map.
 // Add some sample orders to 'ordersMap' at startup.
@@ -23,7 +23,7 @@ service orderMgt on httpListener {
         methods: ["GET"],
         path: "/all"
     }
-    resource function findAllSummeryData(http:Caller caller, http:Request req) {
+    resource function findAllSummaryData(http:Caller caller, http:Request req) {
         // Find the requested order from the map and retrieve it in JSON format.
         json? payload = getSummeryData();
         http:Response response = new;

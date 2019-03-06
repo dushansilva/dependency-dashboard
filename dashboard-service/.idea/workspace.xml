@@ -18,20 +18,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.bal" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.bal" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/service/main.bal">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="705">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dependency_summery.bal" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dependency_summery.bal" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service/dependency_summery.bal">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -63,8 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/main.bal" />
         <option value="$PROJECT_DIR$/dependency_summery.bal" />
-        <option value="$PROJECT_DIR$/service/main.bal" />
         <option value="$PROJECT_DIR$/service/dependency_summery.bal" />
+        <option value="$PROJECT_DIR$/service/main.bal" />
       </list>
     </option>
   </component>
@@ -87,6 +87,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -104,7 +105,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,12 +249,13 @@
       <workItem from="1550034191355" duration="294000" />
       <workItem from="1550034520932" duration="76000" />
       <workItem from="1550034633161" duration="16562000" />
-      <workItem from="1551267316619" duration="3848000" />
+      <workItem from="1551267316619" duration="3947000" />
+      <workItem from="1551802629427" duration="1744000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20780000" />
+    <option name="totallyTimeSpent" value="22623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -274,7 +275,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26129428" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -301,6 +302,20 @@
     <entry file="file://$PROJECT_DIR$/service/main.bal">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/dependency_summery.bal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/main.bal">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
           <caret line="57" column="49" lean-forward="true" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
         </state>
       </provider>
@@ -322,17 +337,17 @@
     <entry file="file://$PROJECT_DIR$/Ballerina.toml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/main.bal">
+    <entry file="file://$PROJECT_DIR$/service/dependency_summery.bal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/service/dependency_summery.bal">
+    <entry file="file://$PROJECT_DIR$/service/main.bal">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        <state relative-caret-position="705">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="40" />
         </state>
       </provider>
     </entry>
