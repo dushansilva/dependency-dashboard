@@ -38,9 +38,9 @@ public function getSummeryData() returns (json) {
     if (selectRet is table<Summery>) {
         var jsonConversionRet = json.convert(selectRet);
         if (jsonConversionRet is json) {
-            io:println("JSON: ", io:sprintf("%s", jsonConversionRet));
-            io:println(jsonConversionRet);
-            io:println(jsonConversionRet.length());
+            //io:println("JSON: ", io:sprintf("%s", jsonConversionRet));
+            //io:println(jsonConversionRet);
+            //io:println(jsonConversionRet.length());
             return jsonConversionRet;
         } else {
             io:println("Error in table to json conversion");
@@ -58,9 +58,9 @@ public function getProductDetails() returns (json) {
     if (selectRet is table<Product>) {
         var jsonConversionRet = json.convert(selectRet);
         if (jsonConversionRet is json) {
-            io:println("JSON: ", io:sprintf("%s", jsonConversionRet));
-            io:println(jsonConversionRet);
-            io:println(jsonConversionRet.length());
+            //io:println("JSON: ", io:sprintf("%s", jsonConversionRet));
+            //io:println(jsonConversionRet);
+            //io:println(jsonConversionRet.length());
             return jsonConversionRet;
         } else {
             io:println("Error in table to json conversion");
@@ -72,7 +72,7 @@ public function getProductDetails() returns (json) {
 }
 
 public function main() {
-    var x = getSummeryData();
+    //var x = getSummeryData();
     //var selectRet = testDB->select("SELECT * FROM DEPENDENCY_SUMMERY", Summery, loadToMemory = true);
     //table<Summery> dt;
     //if (selectRet is table<Summery>) {

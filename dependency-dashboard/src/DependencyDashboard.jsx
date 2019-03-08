@@ -339,9 +339,13 @@ class DependencyDashboard extends Widget {
                     <Paper className='table'>
                         <Table >
                             <TableHead>
-                                <TableRow>
-                                    <TableCell>Product</TableCell>
-                                    <TableCell numeric>Matric</TableCell>
+                                <TableRow >
+                                    <TableCell style={{
+                                        color: '#33b5e5'
+                                    }} >Description</TableCell>
+                                    <TableCell style={{
+                                        color: '#33b5e5'
+                                    }} numeric>Matric</TableCell>
                                 </TableRow>
                             </TableHead>
                             <TableBody>
